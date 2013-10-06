@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <com.lyma.Dashboard
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/lightgreen"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bananas"
+            android:drawableTop="@drawable/matooke"
+            android:text="Matooke"
+            android:textSize="15sp"
+            android:background="#ffffff"
+            style="@style/DashboardButton" />
+
+        <Button
+            android:id="@+id/maize"
+            android:drawableTop="@drawable/maize"
+            android:text="Maize"
+            android:textSize="15sp"
+            android:background="#ffffff"
+            style="@style/DashboardButton" />
+
+        <Button
+            android:id="@+id/gnuts"
+            android:drawableTop="@drawable/groundnuts"
+            android:text="G.nuts"
+            android:textSize="15sp"
+            android:background="#ffffff" 
+            style="@style/DashboardButton"/>
+
+        <Button
+            android:id="@+id/beans"
+            android:drawableTop="@drawable/beans"
+            android:text="Beans"
+            android:textSize="15sp" 
+            android:background="#ffffff"
+            style="@style/DashboardButton"/>
+    </com.lyma.Dashboard>
+
+</LinearLayout>
